@@ -6,6 +6,9 @@ public class Main3 {
     public static void main(String[] args) {
         String text = "abcdddddddd";
         int maxLen = 0;
+        
+        
+        
 
         Matcher m = Pattern.compile("(.)\\1+").matcher(text);
         while (m.find()) {
@@ -20,3 +23,5 @@ public class Main3 {
 
     }
 }
+
+

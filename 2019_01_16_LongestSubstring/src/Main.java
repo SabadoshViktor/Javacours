@@ -9,6 +9,8 @@ public class Main {
 		
 			
 	}
+	
+	
 	public static int getLongestSubstringLenght(String input) {
 		int count =1;
 		int max = 1;

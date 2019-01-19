@@ -13,17 +13,17 @@ public class MainReturnString {
 		}
 		public static String getLongestSubstringLenght(String input) {
 			int count = 1;
-			String max =" " ;
+			String max ="" ;
+			
 			for (int i = 0; i < input.length()-1; i++) {
 				if(input.charAt(i) == input.charAt(i+1)) {
-					count=+input.charAt(i);
-					max = max+input.charAt(i);
-					
+					count++;
+					max = "";
 				}
 				else {
 					count = 1 ;
 				}
-				if(count>max.length()) {
+				if(max.length()>count) {
 					count=max.length();
 				}			
 			}
@@ -31,5 +31,4 @@ public class MainReturnString {
 		}
 
 }
-
 

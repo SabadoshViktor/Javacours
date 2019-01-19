@@ -1,10 +1,10 @@
 
-/*public class MainReturnString {
+public class MainReturnString {
 	
 
 		public static void main(String[] args) {
 			
-			String input = "abbbcdddddddd";
+			String input = "abbbbcdddddddd";
 			
 			System.out.println(getLongestSubstringLenght(input));
 			
@@ -13,23 +13,23 @@
 		}
 		public static String getLongestSubstringLenght(String input) {
 			int count = 1;
-			String max = ;
+			String max =" " ;
 			for (int i = 0; i < input.length()-1; i++) {
 				if(input.charAt(i) == input.charAt(i+1)) {
 					count=+input.charAt(i);
-					max = count;
+					max = max+input.charAt(i);
 					
 				}
 				else {
-					count = ;
+					count = 1 ;
 				}
-				if(count.length()>max.length()) {
-					max=count;
+				if(count>max.length()) {
+					count=max.length();
 				}			
 			}
 			return max;			
 		}
 
 }
-*/
+
 

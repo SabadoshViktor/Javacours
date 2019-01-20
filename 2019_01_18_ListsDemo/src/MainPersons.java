@@ -55,7 +55,10 @@ public class MainPersons {
 		
 //		System.out.println(persons);
 		
-		System.out.println(getAddresses(persons));
+//		System.out.println(getAddresses(persons));
+		
+		System.out.println(getAddressesByPersonName(persons, p4));
+
 	}
 	
 	
@@ -72,6 +75,20 @@ public class MainPersons {
 		return res;
 	}
 
+public static List<Address> getAddressesByPersonName(List<Person> persons, Person person){
+		
+		List<Address> res = new ArrayList<>();
+		
+		for (int i = 0; i < persons.size()-1; i++) {
+			if(persons.get(i).getName()==person.getName()) {
+				 res.add(persons.get(i).getAddress());
+			}
+		}
+		
+		return res;
+	}
+
+	
 }
 
 

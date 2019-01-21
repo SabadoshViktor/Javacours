@@ -77,7 +77,7 @@ public static List<Address> getAddressesByPersonName(List<Person> persons, Perso
 		List<Address> res = new ArrayList<>();
 		
 		for (int i = 0; i < persons.size()-1; i++) {
-			if(persons.get(i).getName()==person.getName()) {
+			if(persons.get(i).getName().equals(person.getName())) {
 				 res.add(persons.get(i).getAddress());
 			}
 		}

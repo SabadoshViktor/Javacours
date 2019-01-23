@@ -72,7 +72,7 @@ public class MainPersons {
 		return res;
 	}
 
-public static List<Address> getAddressesByPersonName(List<Person> persons, Person person){
+public static List<Address> getAddressesByPerson(List<Person> persons, Person person){
 		
 		List<Address> res = new ArrayList<>();
 		

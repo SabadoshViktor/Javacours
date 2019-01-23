@@ -55,11 +55,11 @@ public class MainPersons {
 		
 //		System.out.println(persons);
 		
-		System.out.println(getAddresses(persons));
+	//	System.out.println(getAddresses(persons));
 		
 //		System.out.println(getAddressesByPersonName(persons, p4));
-
-	}
+	
+}
 	
 	
 	public static List<Address> getAddresses(List<Person> persons){
@@ -84,6 +84,21 @@ public static List<Address> getAddressesByPersonName(List<Person> persons, Perso
 		
 		return res;
 	}
+
+public static List<Address> getAddressesByPersonName2(List<Person> persons, String name){
+	
+	List<Address> res = new ArrayList<>();
+	
+	for (int i = 0; i < persons.size()-1; i++) {
+		if(persons.get(i).getName().equals(name)) {
+			 res.add(persons.get(i).getAddress());
+		}
+	}
+	
+	return res;
+}
+
+
 
 	
 }

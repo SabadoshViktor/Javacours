@@ -1,9 +1,11 @@
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.List;
 
 public class MainPersons {
 	
 	public static void main(String[] arg) {
+		
 		
 		Address a1 = new Address("Askanierring", 57);
 		Address a2 = new Address("Seegefelder", 72);
@@ -85,7 +87,7 @@ public static List<Address> getAddressesByPerson(List<Person> persons, Person pe
 		return res;
 	}
 
-public static List<Address> getAddressesByPersonName2(List<Person> persons, String name){
+public static List<Address> getAddressesByPersonName(List<Person> persons, String name){
 	
 	List<Address> res = new ArrayList<>();
 	

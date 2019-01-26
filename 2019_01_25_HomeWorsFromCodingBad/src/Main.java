@@ -3,19 +3,18 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		
-		
+
 		
 	}
 		
-	public boolean sleepIn(boolean weekday, boolean vacation) {
+	public static boolean sleepIn(boolean weekday, boolean vacation) {
 		 if(!weekday || vacation){
 		   return true;
 		 }
 		 return false;
-		}
+		 }
 	
-	public int diff21(int n) {
+	public static int diff21(int n) {
 		  if(n<=21){
 		    return 21 - n;
 		  }
@@ -24,7 +23,7 @@ public class Main {
 		  }
 		}
 	
-	public String endUp(String str) {
+	public static String endUp(String str) {
 		  if (str.length() <= 3) {
 			  return str.toUpperCase();
 		  }
@@ -40,7 +39,7 @@ public class Main {
 	}
 
 	
-	public int intMax(int a, int b, int c) {
+	public static int intMax(int a, int b, int c) {
 		if(a>b && a>c) {
 			return a;
 		}
@@ -52,7 +51,7 @@ public class Main {
 		}
 	}
 	
-	public boolean commonEnd(int[] a, int[] b) {
+	public static boolean commonEnd(int[] a, int[] b) {
 		  for(int i=0; i<a.length; i++){
 		    for(int j=0; j<b.length; j++){
 		      if(a[a.length-1]==b[b.length-1] || a[0]==b[0] ){
@@ -63,7 +62,7 @@ public class Main {
 		return false;
 		}
 	
-	public int sum2(int[] nums) {
+	public static int sum2(int[] nums) {
  		for (int i = 0; i < nums.length; i++) {
 			if(nums.length==0) {
 				return 0;
@@ -79,7 +78,7 @@ public class Main {
 		return 0;
 }
 	
-	public int countEvens(int[] nums){
+	public static int countEvens(int[] nums){
 		int count = 0;
 		for(int i = 0; i < nums.length; i++){
 			if(nums[i] % 2 == 0)
@@ -89,7 +88,7 @@ public class Main {
 	}
 	
 	//Этот мне довелось стянуть с гугла =)
-	public int[] zeroMax(int[] nums) {
+	public static int[] zeroMax(int[] nums) {
 		  int max = 0;
 		  
 		  for (int i = nums.length-1; i >= 0; i--) {
@@ -102,7 +101,7 @@ public class Main {
 		}
 	
 	
-	public int[] shiftLeft(int[] nums) { 
+	public static int[] shiftLeft(int[] nums) { 
 		  int[] res;
 		  res = new int[nums.length];
 		  
@@ -120,11 +119,11 @@ public class Main {
 
 		}
 	
-	public String nonStart(String a, String b) {
+	public static String nonStart(String a, String b) {
 		   return a.substring(1,a.length()) + b.substring(1,b.length());
 		}
 	
-	public String middleTwo(String str) {
+	public static String middleTwo(String str) {
 		  int half = str.length() / 2;
 		  return str.substring(half-1,half+1);
 		}

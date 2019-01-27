@@ -52,30 +52,21 @@ public class Main {
 	}
 	
 	public static boolean commonEnd(int[] a, int[] b) {
-		  for(int i=0; i<a.length; i++){
-		    for(int j=0; j<b.length; j++){
-		      if(a[a.length-1]==b[b.length-1] || a[0]==b[0] ){
-		        return true;
-		      }
-		    }
-		}
+		if(a[a.length-1]==b[b.length-1] || a[0]==b[0] ){
+		  return true;
+		 }
 		return false;
 		}
 	
 	public static int sum2(int[] nums) {
- 		for (int i = 0; i < nums.length; i++) {
-			if(nums.length==0) {
-				return 0;
-			}
-			if(nums.length<2) {
-				return nums[i];
-			}
-			else{
-			  return nums[0]+nums[1];
-			}
-			
+ 		if(nums.length==0) {
+		     return 0;
+		}	
+		if(nums.length==1) {
+		     return nums[0];
 		}
-		return 0;
+			
+	  return nums[0]+nums[1];
 }
 	
 	public static int countEvens(int[] nums){
@@ -87,14 +78,15 @@ public class Main {
 		return count;
 	}
 	
-	//Ýòîò ìíå äîâåëîñü ñòÿíóòü ñ ãóãëà =)
+	//ÃÃ²Ã®Ã² Ã¬Ã­Ã¥ Ã¤Ã®Ã¢Ã¥Ã«Ã®Ã±Ã¼ Ã±Ã²Ã¿Ã­Ã³Ã²Ã¼ Ã± Ã£Ã³Ã£Ã«Ã  =)
 	public static int[] zeroMax(int[] nums) {
 		  int max = 0;
 		  
 		  for (int i = nums.length-1; i >= 0; i--) {
-		    if (nums[i] % 2 != 0)
-		      max = Math.max(max, nums[i]);
-		    if (nums[i] == 0)
+		    if (nums[i] % 2 != 0){
+		          max = Math.max(max, nums[i]);
+		    }
+		    if (nums[i] == 0){
 		          nums[i] = max;
 		  }
 		  return nums;

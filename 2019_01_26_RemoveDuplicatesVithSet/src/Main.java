@@ -6,6 +6,8 @@ public class Main {
 
 		List<String> duplicates = Arrays.asList("Ivan", "petr", "Ivan", " Anna");
 		//System.out.println(removeDuplicates(duplicates));
+		
+		
 	}
 
 //	public static List<String> removeDuplicates(List<String> strings){

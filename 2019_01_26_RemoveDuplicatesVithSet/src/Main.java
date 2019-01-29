@@ -7,7 +7,7 @@ public class Main {
 		List<String> duplicates = Arrays.asList("Ivan", "petr", "Ivan", " Anna");
 		//System.out.println(removeDuplicates(duplicates));
 		
-		
+		System.out.println(getDuplicates(duplicates));
 	}
 
 //	public static List<String> removeDuplicates(List<String> strings){
@@ -17,14 +17,19 @@ public class Main {
 //		
 //		return new ArrayList<>(set);
 //	}
-	  public static List<String> removeDuplicateswithoutSets(List<String> strings){
+	  public static List<String> getDuplicates(List<String> strings){
 		
-		Set<String> set = new HashSet<>();
-		set.addAll(strings);
+		Set<String> set = new HashSet<>(strings);
+//		set.addAll(strings);
 		
 		return new ArrayList<>(set);
 	}
 
+	  public static List<String> removeDuplicatesVithoutSet(List<String> strings){
+		  
+		  return null;
+	  }
+	  
 }
 
 

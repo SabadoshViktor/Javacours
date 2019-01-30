@@ -8,6 +8,7 @@ public class Main {
 		//System.out.println(removeDuplicates(duplicates));
 		
 		System.out.println(getDuplicates(duplicates));
+		
 	}
 
 //	public static List<String> removeDuplicates(List<String> strings){
@@ -19,12 +20,21 @@ public class Main {
 //	}
 	  public static List<String> getDuplicates(List<String> strings){
 		
-		Set<String> set = new HashSet<>(strings);
+		Set<String> set = new HashSet<>();
+		List<String> ret = new ArrayList<>();
+
+		for(String s:strings) {
+			if(!set.add(s)) {
+				ret.add(s);
+			}
+		}
 //		set.addAll(strings);
 		
-		return new ArrayList<>(set);
+		return ret;
 	}
 
+	  
+	  
 	  public static List<String> removeDuplicatesVithoutSet(List<String> strings){
 		  
 		  return null;

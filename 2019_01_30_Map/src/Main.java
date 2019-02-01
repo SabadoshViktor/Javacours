@@ -10,7 +10,7 @@ public class Main {
 		m1.put("b", "There");
 		String[] str = {"a", "b", "f", "c", "d", "e", "c", "f"};
 		
-		System.out.println(getAB(m1));
+		//System.out.println(getAB(m1));
 		System.out.println(get(str));
 	}
 	
@@ -28,11 +28,11 @@ public class Main {
 		   
 		  for (int i = 0; i < strings.length; i++) {
 			  if(map.containsKey(strings[i])==false) {
-				    map.put(strings[i], false);
+				    map.put(strings[i], true);
 
 			  }
 			  else {
-				    map.put(strings[i], true);
+				    map.put(strings[i], false);
 
 			  }
 		  }

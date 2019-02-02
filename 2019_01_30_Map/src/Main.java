@@ -24,22 +24,16 @@ public class Main {
 	
 	public static Map<String, Boolean> get (String[] strings) {
 		
-		Map<String, Boolean> map = new HashMap<String, Boolean>();
+		Map<String, Boolean> map = new HashMap<>();
 		   
 		  for (int i = 0; i < strings.length; i++) {
 			  if(map.containsKey(strings[i])==false) {
-				    map.put(strings[i], true);
-
+				    map.put(strings[i], false);
 			  }
 			  else {
-				    map.put(strings[i], false);
-
+				    map.put(strings[i], true);
 			  }
-		  }
-		   
+		  }	  
 		  return map;
-		
 	}
-
-	
 }

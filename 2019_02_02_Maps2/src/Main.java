@@ -12,6 +12,9 @@ public class Main {
 		
 		//System.out.println(getAB(m1));
 		System.out.println(get(str));
+		System.out.println(get2(str));
+		System.out.println(get3(str));
+		System.out.println(get4(str));
 	}
 	
 	public static Map<String, String> getAB(Map<String, String> map) {
@@ -76,4 +79,12 @@ public static Map<String, Boolean> get4 (String[] strings) {
 		 
 	  return map;
 }
+
+//public static String createKey(String input) {
+//	input.
+//}
+
+
+
+
 }

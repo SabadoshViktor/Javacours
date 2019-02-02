@@ -65,4 +65,15 @@ public static Map<String, Boolean> get3 (String[] strings) {
 	  }	  
 	  return map;
 }
+
+public static Map<String, Boolean> get4 (String[] strings) {
+	
+	Map<String, Boolean> map = new HashMap<>();
+	   
+	  for (String s : strings) {
+		  map.put(s, !map.containsKey(s));
+	  }
+		 
+	  return map;
+}
 }

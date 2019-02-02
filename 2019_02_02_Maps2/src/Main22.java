@@ -8,7 +8,7 @@ public static void main(String[] args) {
 //		System.out.println("*********************************************");
 //		System.out.println(anagrams("anna"));
 	
-		System.out.println(getWordsCount2("ivan"));
+		System.out.println(getWordsCount("ivan"));
 
 	}
 	
@@ -50,25 +50,9 @@ public static void main(String[] args) {
 		
 	}
 	
-//	public static void getWordsCount() {
-//		int res;
-//		for (String s: voc2) {
-//			if(!map2.containsKey(s)){
-//				res++;
-//				List<Integer> l = new ArrayList<>();
-//				l.add(res);
-//				map2.put(s, l);
-//			}
-//			else {
-//				List<Integer> list = map2.get(s);
-//				list.add(res);
-//				res++;
-//			}
-//		}
-//		System.out.println(map2.get(s));		
-//	}
+
 	
-	public static Map<String, Integer> getWordsCount2(String string) {
+	public static Map<String, Integer> getWordsCount(String string) {
 		for (String s: voc2) {
 			if(!map2.containsKey(s)){
 				map2.put(s, 1);

@@ -8,7 +8,7 @@ public static void main(String[] args) {
 //		System.out.println("*********************************************");
 //		System.out.println(anagrams("anna"));
 	
-		System.out.println(getWordsCount("ivan"));
+		System.out.println(getWordsCount2());
 
 	}
 	
@@ -16,7 +16,7 @@ public static void main(String[] args) {
 	public static Map<String, List<String>> map = new HashMap<>();
 	
 	
-	public static String[] voc2 = {"ivan", "piotr", "ivan" , "anna","ivan", "anna","ivan", "ivan", "ivan", "ivan", "ivan", "ivan", "ivan"};
+	public static String[] voc2 = {"ivan", "piotr", "ivan" , "anna","ivan","anna","sasha","ivan", "ivan", "ivan", "ivan", "ivan", "ivan", "ivan"};
 	public static Map<String,Integer>map2 = new HashMap<>();
 
 	
@@ -52,20 +52,28 @@ public static void main(String[] args) {
 	
 
 	
-	public static Map<String, Integer> getWordsCount(String string) {
+	public static Map<String, Integer> getWordsCount1(String[] string) {
 		for (String s: voc2) {
 			if(!map2.containsKey(s)){
+			
 				map2.put(s, 1);
 			}
 			else {
 				int count = map2.get(s);
 				map2.put(s, count+1);
 				}
+		
+		}
+		return map2;	
+}	
+	
+	public static Map<String, Integer> getWordsCount2() {
+		for (String s: voc2) {
+		int count = !map2.containsKey(s) ? 1 : map2.get(s)+1;
+		map2.put(s,count) ;
 		}
 		return map2;
-		
 	}
-	
 	
 
 }

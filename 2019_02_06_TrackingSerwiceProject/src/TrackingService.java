@@ -11,9 +11,16 @@ public class TrackingService {
 	public int getGoal() {
 		return goal;
 	}
-	public void setGoal(int goal) {
+	
+	
+	public void setGoal(int goal) throws InvalidGoalException{
+		if(goal<0) {
+			throw new InvalidGoalException();
+		}
 		this.goal = goal;
 	}
+	
+	
 	public int getTotal() {
 		return total;
 	}

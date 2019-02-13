@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="sabadosh-thinkpad-x1" name="Test" skipped="0" tests="6" time="0.228" timestamp="2019-02-13T19:35:33">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="ant.library.dir" value="/snap/eclipse/29/plugins/org.apache.ant_1.10.3.v20180417-1627/lib" />
+    <property name="java.specification.version" value="10" />
+    <property name="ant.project.name" value="2019_02_06_TrackingServiceTest" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.TEXTDOMAINDIR" value="/usr/share/locale/" />
+    <property name="env.SNAP_LIBRARY_PATH" value="/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void" />
+    <property name="env.DEFAULTS_PATH" value="/usr/share/gconf/ubuntu.default.path" />
+    <property name="env.TEXTDOMAIN" value="im-config" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib" />
+    <property name="env.SNAP_INSTANCE_NAME" value="eclipse" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner Test skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/sabadosh/Javacours/2019_02_06_TrackingServiceTest/junit/TEST-Test.xml crashfile=/home/sabadosh/Javacours/2019_02_06_TrackingServiceTest/junitvmwatcher3206955835591428535.properties propsfile=/home/sabadosh/Javacours/2019_02_06_TrackingServiceTest/junit15401270136208869580.properties" />
+    <property name="jdk.debug" value="release" />
+    <property name="env.SSH_AGENT_PID" value="1283" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.GIO_LAUNCHED_DESKTOP_FILE" value="/var/lib/snapd/desktop/applications/eclipse_eclipse.desktop" />
+    <property name="env.SNAP_ARCH" value="amd64" />
+    <property name="java.version.date" value="2018-07-17" />
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64" />
+    <property name="env.GDMSESSION" value="ubuntu" />
+    <property name="env.GDK_CORE_DEVICE_EVENTS" value="1" />
+    <property name="env.SNAP_INSTANCE_KEY" value="" />
+    <property name="basedir" value="/home/sabadosh/Javacours/2019_02_06_TrackingServiceTest" />
+    <property name="file.separator" value="/" />
+    <property name="java.vm.compressedOopsMode" value="32-bit" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.file.type.2019_02_06_TrackingServiceTest" value="file" />
+    <property name="env.GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated" />
+    <property name="env.GJS_DEBUG_OUTPUT" value="stderr" />
+    <property name="env.LC_TELEPHONE" value="de_DE.UTF-8" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="10.0.2+13-Ubuntu-1ubuntu0.18.04.4" />
+    <property name="user.name" value="sabadosh" />
+    <property name="env.PATH" value="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin" />
+    <property name="env.SNAP_COOKIE" value="WplqFgvHCMJRg7y01MPKYvg6wJpQkGNcN4LkSDFSSg00" />
+    <property name="env.LC_TIME" value="de_DE.UTF-8" />
+    <property name="env.LOGNAME" value="sabadosh" />
+    <property name="env.XDG_SEAT" value="seat0" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="env.CLUTTER_IM_MODULE" value="xim" />
+    <property name="env.LC_IDENTIFICATION" value="de_DE.UTF-8" />
+    <property name="env.LC_NUMERIC" value="de_DE.UTF-8" />
+    <property name="env.XDG_VTNR" value="2" />
+    <property name="env.SHLVL" value="0" />
+    <property name="env.XDG_SESSION_DESKTOP" value="ubuntu" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="java.version" value="10.0.2" />
+    <property name="env.SNAP_REEXEC" value="" />
+    <property name="env.SNAP_USER_DATA" value="/home/sabadosh/snap/eclipse/29" />
+    <property name="env.SSH_AUTH_SOCK" value="/run/user/1000/keyring/ssh" />
+    <property name="env.XDG_RUNTIME_DIR" value="/run/user/1000/snap.eclipse" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.2019_02_06_TrackingServiceTest" value="/home/sabadosh/Javacours/2019_02_06_TrackingServiceTest/build.xml" />
+    <property name="env.XMODIFIERS" value="@im=ibus" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="ant.home" value="/snap/eclipse/29/plugins/org.apache.ant_1.10.3.v20180417-1627" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.SNAP_USER_COMMON" value="/home/sabadosh/snap/eclipse/common" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.3 compiled on March 24 2018" />
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+    <property name="env.WINDOWPATH" value="2" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.XDG_SESSION_TYPE" value="x11" />
+    <property name="env.IM_CONFIG_PHASE" value="2" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="env.XAUTHORITY" value="/run/user/1000/gdm/Xauthority" />
+    <property name="env.LC_MEASUREMENT" value="de_DE.UTF-8" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="env.PWD" value="/home/sabadosh" />
+    <property name="env.LANG" value="en_US.UTF-8" />
+    <property name="env.SESSION_MANAGER" value="local/sabadosh-thinkpad-x1:@/tmp/.ICE-unix/1207,unix/sabadosh-thinkpad-x1:/tmp/.ICE-unix/1207" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.LC_NAME" value="de_DE.UTF-8" />
+    <property name="env.OXYGEN_DISABLE_INNER_SHADOWS_HACK" value="1" />
+    <property name="env.SNAP_CONTEXT" value="WplqFgvHCMJRg7y01MPKYvg6wJpQkGNcN4LkSDFSSg00" />
+    <property name="java.class.path" value="/home/sabadosh/Javacours/2019_02_06_TrackingServiceTest/bin:/home/sabadosh/Javacours/2019_02_06_TrackingSerwiceProject/bin:/snap/eclipse/29/plugins/org.junit_4.12.0.v201504281640/junit.jar:/snap/eclipse/29/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar:/snap/eclipse/29/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-launcher.jar:/snap/eclipse/29/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant.jar:/snap/eclipse/29/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-junit.jar:/snap/eclipse/29/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-junit4.jar" />
+    <property name="env.HOME" value="/home/sabadosh" />
+    <property name="source" value="10" />
+    <property name="env.QT_IM_MODULE" value="xim" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.LC_MONETARY" value="de_DE.UTF-8" />
+    <property name="env.XDG_DATA_DIRS" value="/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop" />
+    <property name="user.timezone" value="" />
+    <property name="java.vm.specification.version" value="10" />
+    <property name="os.name" value="Linux" />
+    <property name="env.DISPLAY" value=":0" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.SNAP_VERSION" value="4.8.0" />
+    <property name="user.country" value="US" />
+    <property name="env.SNAP_REVISION" value="29" />
+    <property name="env.QT_ACCESSIBILITY" value="1" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="/home/sabadosh" />
+    <property name="user.language" value="en" />
+    <property name="env.MANDATORY_PATH" value="/usr/share/gconf/ubuntu.mandatory.path" />
+    <property name="env.GPG_AGENT_INFO" value="/run/user/1000/gnupg/S.gpg-agent:0:1" />
+    <property name="ant.java.version" value="10" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="env.GTK_IM_MODULE" value="ibus" />
+    <property name="env.LC_PAPER" value="de_DE.UTF-8" />
+    <property name="2019_02_06_TrackingSerwiceProject.location" value="../2019_02_06_TrackingSerwiceProject" />
+    <property name="env.ANT_HOME" value="/snap/eclipse/29/plugins/org.apache.ant_1.10.3.v20180417-1627" />
+    <property name="env.XDG_MENU_PREFIX" value="gnome-" />
+    <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:path=/run/user/1000/bus" />
+    <property name="ant.file" value="/home/sabadosh/Javacours/2019_02_06_TrackingServiceTest/build.xml" />
+    <property name="env.SNAP_COMMON" value="/var/snap/eclipse/common" />
+    <property name="path.separator" value=":" />
+    <property name="os.version" value="4.15.0-29-generic" />
+    <property name="env.GIO_LAUNCHED_DESKTOP_FILE_PID" value="1643" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="env.XDG_SESSION_ID" value="2" />
+    <property name="env.GJS_DEBUG_TOPICS" value="JS ERROR;JS LOG" />
+    <property name="ant.project.invoked-targets" value="build,Test,junitreport,GoodTestsSuite" />
+    <property name="env.SNAP_NAME" value="eclipse" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="env.LC_ADDRESS" value="de_DE.UTF-8" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="ant.core.lib" value="/snap/eclipse/29/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant.jar" />
+    <property name="env.GTK_MODULES" value="gail:atk-bridge" />
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/" />
+    <property name="env.XDG_CONFIG_DIRS" value="/etc/xdg/xdg-ubuntu:/etc/xdg" />
+    <property name="env.SNAP" value="/snap/eclipse/29" />
+    <property name="user.dir" value="/home/sabadosh/Javacours/2019_02_06_TrackingServiceTest" />
+    <property name="env.USERNAME" value="sabadosh" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.QT4_IM_MODULE" value="xim" />
+    <property name="target" value="10" />
+    <property name="env.BAMF_DESKTOP_FILE_HINT" value="/var/lib/snapd/desktop/applications/eclipse_eclipse.desktop" />
+    <property name="env.DESKTOP_SESSION" value="ubuntu" />
+    <property name="env.XDG_CURRENT_DESKTOP" value="ubuntu:GNOME" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.vm.version" value="10.0.2+13-Ubuntu-1ubuntu0.18.04.4" />
+    <property name="env.LIBOVERLAY_SCROLLBAR" value="0" />
+    <property name="java.class.version" value="54.0" />
+    <property name="env.GNOME_SHELL_SESSION_MODE" value="ubuntu" />
+    <property name="env.USER" value="sabadosh" />
+    <property name="env.SNAP_DATA" value="/var/snap/eclipse/29" />
+    <property name="ant.project.default-target" value="build" />
+  </properties>
+  <testcase classname="Test" name="testArraySize" time="0.002" />
+  <testcase classname="Test" name="addCaloriesTest" time="0.0" />
+  <testcase classname="Test" name="removeCaloriesTest" time="0.0" />
+  <testcase classname="Test" name="checkList" time="0.0" />
+  <testcase classname="Test" name="checkGoalStatus" time="0.001" />
+  <testcase classname="Test" name="negative" time="0.005">
+    <failure message="expected:&lt;20&gt; but was:&lt;0&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;20&gt; but was:&lt;0&gt;
+	at Test.negative(Test.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

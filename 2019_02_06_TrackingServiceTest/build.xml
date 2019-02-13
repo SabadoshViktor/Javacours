@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="2019_02_06_TrackingServiceTest">
+    <property environment="env"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="2019_02_06_TrackingSerwiceProject.location" value="../2019_02_06_TrackingSerwiceProject"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="10"/>
+    <property name="source" value="10"/>
+    <path id="2019_02_06_TrackingSerwiceProject.classpath">
+        <pathelement location="${2019_02_06_TrackingSerwiceProject.location}/bin"/>
+    </path>
+    <path id="JUnit 4.libraryclasspath">
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+    </path>
+    <path id="2019_02_06_TrackingServiceTest.classpath">
+        <pathelement location="bin"/>
+        <path refid="2019_02_06_TrackingSerwiceProject.classpath"/>
+        <path refid="JUnit 4.libraryclasspath"/>
+    </path>
+    <path id="run.Test.classpath">
+        <path refid="2019_02_06_TrackingServiceTest.classpath"/>
+        <path refid="2019_02_06_TrackingSerwiceProject.classpath"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+    </path>
+    <path id="run.Test.checkGoalStatus.classpath">
+        <path refid="2019_02_06_TrackingServiceTest.classpath"/>
+        <path refid="2019_02_06_TrackingSerwiceProject.classpath"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+    </path>
+    <path id="run.Test.testArraySiae.classpath">
+        <path refid="2019_02_06_TrackingServiceTest.classpath"/>
+        <path refid="2019_02_06_TrackingSerwiceProject.classpath"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+    </path>
+    <path id="run.ParameterizedTest.testAddCalories.classpath">
+        <path refid="2019_02_06_TrackingServiceTest.classpath"/>
+        <path refid="2019_02_06_TrackingSerwiceProject.classpath"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+    </path>
+    <path id="run.Test.removeCaloriesTest.classpath">
+        <path refid="2019_02_06_TrackingServiceTest.classpath"/>
+        <path refid="2019_02_06_TrackingSerwiceProject.classpath"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+    </path>
+    <path id="run.Test.badTest.classpath">
+        <path refid="2019_02_06_TrackingServiceTest.classpath"/>
+        <path refid="2019_02_06_TrackingSerwiceProject.classpath"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+    </path>
+    <path id="run.ParameterizedTest.classpath">
+        <path refid="2019_02_06_TrackingServiceTest.classpath"/>
+        <path refid="2019_02_06_TrackingSerwiceProject.classpath"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+    </path>
+    <path id="run.Test.checkList.classpath">
+        <path refid="2019_02_06_TrackingServiceTest.classpath"/>
+        <path refid="2019_02_06_TrackingSerwiceProject.classpath"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+    </path>
+    <path id="run.Test.whenGoalIsSetNegaive.classpath">
+        <path refid="2019_02_06_TrackingServiceTest.classpath"/>
+        <path refid="2019_02_06_TrackingSerwiceProject.classpath"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+    </path>
+    <path id="run.Test.afterTestName.classpath">
+        <path refid="2019_02_06_TrackingServiceTest.classpath"/>
+        <path refid="2019_02_06_TrackingSerwiceProject.classpath"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+    </path>
+    <path id="run.Test.negative.classpath">
+        <path refid="2019_02_06_TrackingServiceTest.classpath"/>
+        <path refid="2019_02_06_TrackingSerwiceProject.classpath"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+    </path>
+    <path id="run.GoodTestsSuite.classpath">
+        <path refid="2019_02_06_TrackingServiceTest.classpath"/>
+        <path refid="2019_02_06_TrackingSerwiceProject.classpath"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
+        <pathelement location="../../../../snap/eclipse/29/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall">
+        <ant antfile="build.xml" dir="${2019_02_06_TrackingSerwiceProject.location}" inheritAll="false" target="clean"/>
+    </target>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects">
+        <ant antfile="build.xml" dir="${2019_02_06_TrackingSerwiceProject.location}" inheritAll="false" target="build-project">
+            <propertyset>
+                <propertyref name="build.compiler"/>
+            </propertyset>
+        </ant>
+    </target>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="2019_02_06_TrackingServiceTest.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="Test">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="Test" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.Test.classpath"/>
+        </junit>
+    </target>
+    <target name="Test.checkGoalStatus">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="Test" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.Test.checkGoalStatus.classpath"/>
+        </junit>
+    </target>
+    <target name="Test.testArraySiae">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="Test" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.Test.testArraySiae.classpath"/>
+        </junit>
+    </target>
+    <target name="ParameterizedTest.testAddCalories">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="ParameterizedTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.ParameterizedTest.testAddCalories.classpath"/>
+        </junit>
+    </target>
+    <target name="Test.removeCaloriesTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="Test" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.Test.removeCaloriesTest.classpath"/>
+        </junit>
+    </target>
+    <target name="Test.badTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="Test" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.Test.badTest.classpath"/>
+        </junit>
+    </target>
+    <target name="ParameterizedTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="ParameterizedTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.ParameterizedTest.classpath"/>
+        </junit>
+    </target>
+    <target name="Test.checkList">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="Test" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.Test.checkList.classpath"/>
+        </junit>
+    </target>
+    <target name="Test.whenGoalIsSetNegaive">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="Test" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.Test.whenGoalIsSetNegaive.classpath"/>
+        </junit>
+    </target>
+    <target name="Test.afterTestName">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="Test" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.Test.afterTestName.classpath"/>
+        </junit>
+    </target>
+    <target name="Test.negative">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="Test" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.Test.negative.classpath"/>
+        </junit>
+    </target>
+    <target name="GoodTestsSuite">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="GoodTestsSuite" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.GoodTestsSuite.classpath"/>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>

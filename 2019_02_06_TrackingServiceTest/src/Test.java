@@ -1,7 +1,11 @@
 import static org.junit.Assert.*;
 
+import org.junit.experimental.categories.Category;
+
+
 public class Test {
 
+	@Category(GoodTestCategory.class)
 	@org.junit.Test
 	public void addCaloriesTest() {
 		TrackingService service = new TrackingService();
@@ -10,6 +14,7 @@ public class Test {
 		
 	}
 	
+	@Category(GoodTestCategory.class)
 	@org.junit.Test
 	public void removeCaloriesTest() {
 		TrackingService service = new TrackingService();
@@ -18,14 +23,16 @@ public class Test {
 		assertEquals(60,service.getTotal());
 	}
 	
+	@Category(BadTestCategory.class)
 	@org.junit.Test
 	public void negative() {
 		TrackingService service = new TrackingService();
 		service.removeCalories(40);
-		assertEquals(0,service.getTotal());
+		assertEquals(20,service.getTotal());
 		
 	}
 	
+	@Category(GoodTestCategory.class)
 	@org.junit.Test
 	public void testArraySize() {
 		TrackingService service = new TrackingService();
@@ -33,6 +40,7 @@ public class Test {
 		assertEquals(1,service.getHistory().size());
 	}
 	
+	@Category(GoodTestCategory.class)
 	@org.junit.Test
 	public void checkList() {
 		TrackingService service = new TrackingService();

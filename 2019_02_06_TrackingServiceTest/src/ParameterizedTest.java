@@ -1,9 +1,9 @@
-import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
 import java.util.List;
 
+import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
@@ -27,6 +27,7 @@ public class ParameterizedTest {
 			{5, 5}, {5,5} , {-12, 0}, {50,50},{1,1}
 		});
 	}
+	
 	@org.junit.Test
 	public void testAddCalories() {
 		if(input>=0) service.addCalories(input);

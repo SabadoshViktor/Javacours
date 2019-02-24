@@ -1,4 +1,5 @@
-package IBAN;
+package bankAccount;
+
 
 public class BankAccount {
 
@@ -11,6 +12,11 @@ public class BankAccount {
 		IBAN = iBAN;
 		this.owner = owner;
 	}
+	
+	public BankAccount(String iBAN) {
+		IBAN = iBAN;
+	}
+	
 	public String getIBAN() {
 		return IBAN;
 	}

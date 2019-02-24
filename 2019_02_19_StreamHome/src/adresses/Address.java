@@ -1,10 +1,14 @@
-package Persons;
+package adresses;
 
 public class Address {
 	
 	private String street;
 	private int houseNum;
 	
+	public Address(String street, int houseNum) {
+		this.street = street;
+		this.houseNum = houseNum;
+	}
 	
 	public String getStreet() {
 		return street;
@@ -24,15 +28,6 @@ public class Address {
 	public void setHouseNum(int houseNum) {
 		this.houseNum = houseNum;
 	}
-
-
-	public Address(String street, int houseNum) {
-		super();
-		this.street = street;
-		this.houseNum = houseNum;
-	}
-	
-	
 
 
 	@Override

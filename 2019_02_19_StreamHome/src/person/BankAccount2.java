@@ -1,16 +1,20 @@
-package ListAddress;
+package person;
 
-public class BankAccount {
+public class BankAccount2 {
 	
 	private String IBAN;
 
-	public BankAccount(String iBAN) {
+	public BankAccount2(String iBAN) {
 		super();
 		IBAN = iBAN;
 	}
 
 	public String getIBAN() {
 		return IBAN;
+	}
+
+	public void setIBAN(String iBAN) {
+		IBAN = iBAN;
 	}
 
 	@Override
@@ -29,7 +33,7 @@ public class BankAccount {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		BankAccount other = (BankAccount) obj;
+		BankAccount2 other = (BankAccount2) obj;
 		if (IBAN == null) {
 			if (other.IBAN != null)
 				return false;
@@ -40,9 +44,8 @@ public class BankAccount {
 
 	@Override
 	public String toString() {
-		return "BankAccount [IBAN=" + IBAN + "]";
+		return "BankAccount2 [IBAN=" + IBAN + "]";
 	}
-	
-	
 
+	
 }

@@ -1,51 +1,51 @@
-package ListAddress;
+package adresses;
 
-import java.util.List;
 
 public class Person {
 	
 	private String name;
-	private List<String> bankAccount;
+	private int age;
+	private Address address;
 	
-	
-	public Person(String name, List<String> bankAccount) {
-		super();
+	public Person(String name, int age, Address address) {
 		this.name = name;
-		this.bankAccount = bankAccount;
+		this.age = age;
+		this.address = address;
 	}
-
 
 	public String getName() {
 		return name;
 	}
 
-
 	public void setName(String name) {
 		this.name = name;
 	}
 
-
-	public List<String> getBankAccount() {
-		return bankAccount;
+	public int getAge() {
+		return age;
 	}
 
-
-	public void setBankAccount(List<String> bankAccount) {
-		this.bankAccount = bankAccount;
+	public void setAge(int age) {
+		this.age = age;
 	}
-	
-	
 
+	public Address getAddress() {
+		return address;
+	}
+
+	public void setAddress(Address address) {
+		this.address = address;
+	}
 
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((bankAccount == null) ? 0 : bankAccount.hashCode());
+		result = prime * result + ((address == null) ? 0 : address.hashCode());
+		result = prime * result + age;
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
 		return result;
 	}
-
 
 	@Override
 	public boolean equals(Object obj) {
@@ -56,10 +56,12 @@ public class Person {
 		if (getClass() != obj.getClass())
 			return false;
 		Person other = (Person) obj;
-		if (bankAccount == null) {
-			if (other.bankAccount != null)
+		if (address == null) {
+			if (other.address != null)
 				return false;
-		} else if (!bankAccount.equals(other.bankAccount))
+		} else if (!address.equals(other.address))
+			return false;
+		if (age != other.age)
 			return false;
 		if (name == null) {
 			if (other.name != null)
@@ -69,12 +71,12 @@ public class Person {
 		return true;
 	}
 
-
 	@Override
 	public String toString() {
-		return "Person [name=" + name + ", bankAccount=" + bankAccount + "]";
+		return "Person [name=" + name + ", age=" + age + ", address=" + address + "]";
 	}
 	
 	
-
+	
+	
 }

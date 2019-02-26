@@ -16,7 +16,7 @@ public class StreamHWTest {
 
     @Test
     public void shouldMapStringsToUpperCase() {
-        List<String> input = asList("This", "is", "java", "8");
+        List<String> input = asList("This", "is", "java", "8");        ///////////////////////////
         List<String> result = StreamHW.mapToUpperCase(input);
         assertEquals(result, asList("THIS", "IS", "JAVA", "8"));
     }
@@ -31,20 +31,20 @@ public class StreamHWTest {
     @Test
     public void shouldReturnAgeFromUser() {
         List<User> users = User.getUsersWithAge(18, 20);
-        List<Integer> ageFromUsers = StreamHW.getAgeFromUsers(users);
+        List<Integer> ageFromUsers = StreamHW.getAgeFromUsers(users);  ////////////////////////////////
         assertEquals(ageFromUsers, asList(18, 20));
     }
 
     @Test
     public void shouldReturnFirstTwo() {
-        List<User> users = User.getUsersWithAge(18, 20, 21, 22, 23);
+        List<User> users = User.getUsersWithAge(18, 20, 21, 22, 23);   
         users = StreamHW.getLimitedUserList(users, 2);
         assertEquals(users, asList(users.get(0), users.get(1)));
     }
 
     @Test
     public void shouldReturnNumberOfUsersOlderThen25() {
-        List<User> users = User.getUsersWithAge(18, 20, 21, 22, 23, 24, 25, 26);
+        List<User> users = User.getUsersWithAge(18, 20, 21, 22, 23, 24, 25, 26);    //////////////////////////////////
         Integer count = StreamHW.countUsersOlderThen25(users);
         assertTrue(count == 1);
     }

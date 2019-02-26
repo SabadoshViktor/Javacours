@@ -1,4 +1,4 @@
-package IBAN;
+package bankAccount;
 
 public class Person {
 	
@@ -15,11 +15,6 @@ public class Person {
 
 	public void setName(String name) {
 		this.name = name;
-	}
-
-	@Override
-	public String toString() {
-		return "Person [name=" + name + "]";
 	}
 
 	@Override
@@ -45,6 +40,11 @@ public class Person {
 		} else if (!name.equals(other.name))
 			return false;
 		return true;
+	}
+
+	@Override
+	public String toString() {
+		return "Person [name=" + name + "]";
 	}
 	
 	

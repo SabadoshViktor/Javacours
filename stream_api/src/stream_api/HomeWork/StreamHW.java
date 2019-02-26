@@ -17,7 +17,9 @@ public class StreamHW {
     }
 
     public static List<Integer> getAgeFromUsers(List<User> user){
-        throw new NotImplementedException();
+        return user.stream()
+        		.map(User::getAge)
+        		.collect(Collectors.toList());
     }
 
     public static List<Integer> getDistinctAges(List<User> users){
@@ -29,7 +31,9 @@ public class StreamHW {
     }
 
     public static Integer countUsersOlderThen25(List<User> users){
-        throw new NotImplementedException();
+        return (int) users.stream()
+        .filter(u -> u.getAge()>25)
+        .count();
     }
 
     public static List<String> mapToUpperCase(List<String> strings){
@@ -39,7 +43,9 @@ public class StreamHW {
     }
 
     public static Integer sum(List<Integer> integers){
-        throw new NotImplementedException();
+       return integers.stream()
+        .reduce((s1, s2) -> s1 + s2)
+        .orElse(0);
     }
 
     public static List<Integer> skip(List<Integer> integers, Integer toSkip){
@@ -119,9 +125,12 @@ public class StreamHW {
         throw new NotImplementedException();
     }
 
-    public static User findOldest(List<User> users){
-        throw new NotImplementedException();
-    }
+//    public static User findOldest(List<User> users){
+//    	return users.stream()
+//        .map(User::getAge)
+//        .reduce(0, (s1, s2) -> s1 > s2 ? s1 : s2);    
+//    
+//    }
 
     public static int sumAge(List<User> users){
         throw new NotImplementedException();

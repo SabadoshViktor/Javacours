@@ -32,7 +32,7 @@ public class Main {
 		
 		Stream<Employee> s1 = Stream.of(frank, john, anna);
 		
-		Optional<Integer> max = s1.map(p -> p.getSalary()).max(Integer::compare);
+		s1.map(p -> p.getSalary()).max(Integer::compare);
 		
 		System.out.println("Max " + max.get());
 		

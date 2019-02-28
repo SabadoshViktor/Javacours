@@ -32,9 +32,8 @@ public class Main {
 		
 		Stream<Employee> s1 = Stream.of(frank, john, anna);
 		
-		Optional<Integer> max = s1.map(p -> p.getSalary()).max(Integer::compare);
+		s1.map(p -> p.getSalary()).max(Integer::compare);
 		
-		System.out.println("Max " + max.get());
 		
 		List<Employee> e2 = Arrays.asList( john, anna);
 		employees2.addAll(e2);

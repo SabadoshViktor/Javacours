@@ -6,7 +6,6 @@ public class Address {
 	
 	
 	public Address(String street, int numOfHouse) {
-		super();
 		this.street = street;
 		this.numOfHouse = numOfHouse;
 	}

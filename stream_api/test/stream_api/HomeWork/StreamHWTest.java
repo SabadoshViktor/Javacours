@@ -232,13 +232,13 @@ public class StreamHWTest {
         assertEquals(statistics.getMin(),2);
     }
 
-//    @Test
-//    public void shouldConvertToBoxedStream(){
-//        List<Integer> numbers = asList(1, 2, 3);
-//        IntStream intStream = numbers.stream().mapToInt(value -> value);
-//        Stream<Integer> boxedStream = StreamHW.getBoxedStream(intStream);
-//        assertTrue(boxedStream.count() == 3);
-//    }
+    @Test
+    public void shouldConvertToBoxedStream(){
+        List<Integer> numbers = asList(1, 2, 3);
+        IntStream intStream = numbers.stream().mapToInt(value -> value);
+        Stream<Integer> boxedStream = StreamHW.getBoxedStream(intStream);
+        assertTrue(boxedStream.count() == 3);
+    }
 
 //    @Test
 //    public void shouldBeEmptyStream(){

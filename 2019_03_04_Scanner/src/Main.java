@@ -5,12 +5,11 @@ public class Main {
 	public static void main(String[] args) {
 		
 		consoleGame(3);
-
 	}
 	
-	public static void consoleGame(int quantityTry) {
+	public static void consoleGame( int quantityTry) {
 		Scanner scanner = new Scanner(System.in);
-		int myNum =22;
+		int myNum =(int) Math.floor(Math.random() * 100);
 		int count = 0;
 		int number;
 		do {

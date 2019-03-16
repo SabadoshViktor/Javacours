@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class StreamHW {
 
@@ -128,8 +130,11 @@ public class StreamHW {
         .collect(Collectors.toList());
     }
 
-//    public static Stream<Integer> getBoxedStream(IntStream stream){
-//@@ -120,15 +138,19 @@ public static boolean isPrime(int number) {
+    public static Stream<Integer> getBoxedStream(IntStream stream){
+    	return stream.boxed();
+    	
+    }
+//    public static boolean isPrime(int number) {
 //    }
 
     public static User findOldest(List<User> users){

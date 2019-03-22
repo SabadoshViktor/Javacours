@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48796b45-3cc7-4fdb-a823-7e723a5debdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../2019_03_14_InputOutput/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2019_03_14_InputOutput/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2019_01_18_ListsDemo/src/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2019_01_18_ListsDemo/src/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019_02_19_StreamHome.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2019_02_19_StreamHome.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2019_03_04_Scanner/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2019_03_04_Scanner/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stream_api/src/stream_api/HomeWork/StreamHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stream_api/src/stream_api/HomeWork/StreamHW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stream_api/test/stream_api/HomeWork/StreamHWTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stream_api/test/stream_api/HomeWork/StreamHWTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2019_03_14_InputOutput/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2019_03_14_InputOutput/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,22 +12,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ExtraHomeWork/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="100" />
     <option name="y" value="47" />
     <option name="width" value="1400" />
@@ -102,7 +85,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="100" y="47" width="1400" height="833" extended-state="1" />
+    <frame x="100" y="47" width="1400" height="833" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533235" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

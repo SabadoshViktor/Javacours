@@ -3,7 +3,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.stream.Stream;
 
-import sun.jvm.hotspot.HelloWorld;
 
 public class CopyCharsDemo {
 	
